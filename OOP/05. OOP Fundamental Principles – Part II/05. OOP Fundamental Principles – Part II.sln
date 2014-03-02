@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Shapes", "01. Shapes\01. Shapes.csproj", "{7C5DA827-4473-4241-89B6-613DB8A56721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Bank", "02. Bank\02. Bank.csproj", "{4B8A1626-7836-4F74-89DA-1FA5F6FC6487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Exception", "03. Exception\03. Exception.csproj", "{B01AC804-3212-4628-B7A5-D0749081D6F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C5DA827-4473-4241-89B6-613DB8A56721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5DA827-4473-4241-89B6-613DB8A56721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5DA827-4473-4241-89B6-613DB8A56721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5DA827-4473-4241-89B6-613DB8A56721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B8A1626-7836-4F74-89DA-1FA5F6FC6487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B8A1626-7836-4F74-89DA-1FA5F6FC6487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B8A1626-7836-4F74-89DA-1FA5F6FC6487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B8A1626-7836-4F74-89DA-1FA5F6FC6487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B01AC804-3212-4628-B7A5-D0749081D6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B01AC804-3212-4628-B7A5-D0749081D6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B01AC804-3212-4628-B7A5-D0749081D6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B01AC804-3212-4628-B7A5-D0749081D6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

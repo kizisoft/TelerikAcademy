@@ -1,0 +1,12 @@
+﻿Dimensions	115.2 mm (4.54 in) H
+58.6 mm (2.31 in) W
+9.3 mm (0.37 in) D
+Weight	140 g (4.9 oz)
+Operating system	Original: iOS 5.0
+Current: iOS 7.0.4, released November 14, 2013
+System on chip	Dual-core Apple A5
+CPU	800 MHz dual-core ARM Cortex-A9[3]
+GPU	PowerVR SGX543MP2
+Memory	512 MB DDR2 RAM[4]
+Storage	8, 16, 32, or 64 GB
+Battery	3.7 V, 5.3 Wh (1,430 mAh)

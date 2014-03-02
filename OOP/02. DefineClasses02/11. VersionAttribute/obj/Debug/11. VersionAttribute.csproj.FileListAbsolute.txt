@@ -1,0 +1,6 @@
+C:\C# Tests\HomeworksTelerik\MyHomeworks\OOP\02. DefineClasses02\11. VersionAttribute\bin\Debug\_11.VersionAttribute.exe.config
+C:\C# Tests\HomeworksTelerik\MyHomeworks\OOP\02. DefineClasses02\11. VersionAttribute\bin\Debug\_11.VersionAttribute.exe
+C:\C# Tests\HomeworksTelerik\MyHomeworks\OOP\02. DefineClasses02\11. VersionAttribute\bin\Debug\_11.VersionAttribute.pdb
+C:\C# Tests\HomeworksTelerik\MyHomeworks\OOP\02. DefineClasses02\11. VersionAttribute\obj\Debug\11. VersionAttribute.csprojResolveAssemblyReference.cache
+C:\C# Tests\HomeworksTelerik\MyHomeworks\OOP\02. DefineClasses02\11. VersionAttribute\obj\Debug\_11.VersionAttribute.exe
+C:\C# Tests\HomeworksTelerik\MyHomeworks\OOP\02. DefineClasses02\11. VersionAttribute\obj\Debug\_11.VersionAttribute.pdb
