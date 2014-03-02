@@ -25,16 +25,16 @@ namespace ParticleSystem
             var chaoticParticle = new ChaoticParticle(new MatrixCoords(20, 20), new MatrixCoords(0, 0), RandomGenerator, 1);
             engine.AddParticle(chaoticParticle);
 
-            //var attractor = new ParticleAttractor(new MatrixCoords(15, 15), new MatrixCoords(0, 0), 2);
-            //engine.AddParticle(attractor);
+            var attractor = new ParticleAttractor(new MatrixCoords(15, 15), new MatrixCoords(0, 0), 2);
+            engine.AddParticle(attractor);
 
-            //var repeller = new ParticleRepeller(new MatrixCoords(20, 15), new MatrixCoords(0, 0), 1);
-            //engine.AddParticle(repeller);
+            var repeller = new ParticleRepeller(new MatrixCoords(20, 15), new MatrixCoords(0, 0), 1, 5);
+            engine.AddParticle(repeller);
 
-            //engine.AddParticle(new Particle(new MatrixCoords(20, 20), new MatrixCoords(0, 0)));
+            engine.AddParticle(new Particle(new MatrixCoords(20, 20), new MatrixCoords(0, 0)));
 
-            //var chickenParticle = new ChickenParticle(new MatrixCoords(15, 15), new MatrixCoords(0, 0), RandomGenerator, 3, new MatrixCoords(3, 6));
-            //engine.AddParticle(chickenParticle);
+            var chickenParticle = new ChickenParticle(new MatrixCoords(15, 15), new MatrixCoords(0, 0), RandomGenerator, 3, new MatrixCoords(3, 6));
+            engine.AddParticle(chickenParticle);
 
             //GenerateInitialData(engine);
 

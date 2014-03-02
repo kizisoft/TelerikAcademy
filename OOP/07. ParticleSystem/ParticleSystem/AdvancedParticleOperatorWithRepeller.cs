@@ -32,7 +32,8 @@ namespace ParticleSystem
                 foreach (var particle in this.particles)
                 {
                     var currAcceleration = GetAccelerationFromParticleToAttractor(attractor, particle);
-                    if (attractor is ParticleRepeller)
+                    ParticleRepeller pr = (attractor as ParticleRepeller);
+                    if (pr != null && Distance(attractor, particle) <= pr.RepellerRadius)
                     {
                         currAcceleration = new MatrixCoords(-currAcceleration.Row, -currAcceleration.Col);
                     }
@@ -67,6 +68,11 @@ namespace ParticleSystem
                 pToAttrCoord = (pToAttrCoord / (int)Math.Abs(pToAttrCoord)) * attractor.Power;
             }
             return pToAttrCoord;
+        }
+
+        private static int Distance(Particle p1, Particle p2)
+        {
+            return (int)Math.Sqrt((p1.Position.Row - p2.Position.Row) * (p1.Position.Row - p2.Position.Row) + (p1.Position.Col - p2.Position.Col) * (p1.Position.Col - p2.Position.Col));
         }
     }
 }
