@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ParticleSystem
+﻿namespace ParticleSystem
 {
+    using System;
+    using System.Collections.Generic;
+
     public class AdvancedParticleOperatorWithRepeller : AdvancedParticleOperator
     {
         List<ParticleAttractor> attractors = new List<ParticleAttractor>();
@@ -32,8 +30,8 @@ namespace ParticleSystem
                 foreach (var particle in this.particles)
                 {
                     var currAcceleration = GetAccelerationFromParticleToAttractor(attractor, particle);
-                    ParticleRepeller pr = (attractor as ParticleRepeller);
-                    if (pr != null && Distance(attractor, particle) <= pr.RepellerRadius)
+                    ParticleRepeller pr = attractor as ParticleRepeller;
+                    if (pr != null && Distance(pr, particle) <= pr.RepellerRadius)
                     {
                         currAcceleration = new MatrixCoords(-currAcceleration.Row, -currAcceleration.Col);
                     }
@@ -44,7 +42,6 @@ namespace ParticleSystem
 
             this.attractors.Clear();
             this.particles.Clear();
-            //base.TickEnded();
         }
 
         private static MatrixCoords GetAccelerationFromParticleToAttractor(ParticleAttractor attractor, Particle particle)
