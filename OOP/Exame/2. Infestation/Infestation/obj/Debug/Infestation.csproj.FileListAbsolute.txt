@@ -1,0 +1,9 @@
+C:\Dropbox\Work\oop\2014\Lectures\Exam-Infestation\Infestation\Infestation\bin\Debug\Infestation.exe
+C:\Dropbox\Work\oop\2014\Lectures\Exam-Infestation\Infestation\Infestation\bin\Debug\Infestation.pdb
+C:\Dropbox\Work\oop\2014\Lectures\Exam-Infestation\Infestation\Infestation\obj\Debug\Infestation.exe
+C:\Dropbox\Work\oop\2014\Lectures\Exam-Infestation\Infestation\Infestation\obj\Debug\Infestation.pdb
+C:\Dropbox\Work\oop\2014\Lectures\Exam-Infestation\Infestation\Infestation\obj\Debug\Infestation.csprojResolveAssemblyReference.cache
+C:\C# Tests\TelerikAcademy\Exames\MyExams\OOP\2. Infestation\Infestation\obj\Debug\Infestation.exe
+C:\C# Tests\TelerikAcademy\Exames\MyExams\OOP\2. Infestation\Infestation\obj\Debug\Infestation.pdb
+C:\C# Tests\TelerikAcademy\Exames\MyExams\OOP\2. Infestation\Infestation\bin\Debug\Infestation.exe
+C:\C# Tests\TelerikAcademy\Exames\MyExams\OOP\2. Infestation\Infestation\bin\Debug\Infestation.pdb
