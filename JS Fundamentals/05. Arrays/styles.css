@@ -1,0 +1,80 @@
+html, body, div, ul, li, a, table, td, th, tr, thead, tbody {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    margin: 15px;
+    width: 653px;
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #09f;
+}
+
+.tab-strip > li {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.tab-content {
+    padding: 5px;
+    display: none;
+    width: 610px;
+    height: 422px;
+    border: 3px ridge #bbb;
+    background: #000;
+    overflow-y: scroll;
+    font-family: Consolas;
+}
+
+.tab-btn {
+    margin-left: -4px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #000;
+    background: linear-gradient(to bottom, #ededed 0%,#ababab 100%);
+    font-size: 1.35rem;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    border-radius: 5px;
+}
+
+#task1 {
+    margin-left: 0;
+}
+
+:target {
+    padding: 5px 13px 5px 15px;
+    font-weight: bold;
+    background: none;
+    color: #FFFF00;
+    border-bottom: none;
+    border-right: none;
+    outline: none;
+}
+
+li:last-of-type a {
+    border-right: none;
+}
+
+:target + div {
+    display: inline-block;
+    position: absolute;
+    top: 65px;
+    left: 30px;
+    color: #FFFF00;
+}
+
+a.tab-btn:hover:not(:target) {
+    background: #eee;
+}
+
+#in-task3, #in-task4, #in-task6 {
+    width: 300px;
+}

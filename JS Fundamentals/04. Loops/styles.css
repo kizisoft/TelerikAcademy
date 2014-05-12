@@ -1,0 +1,16 @@
+﻿.res-textarea {
+    margin-left: 20px;
+    width: 250px;
+    height: 100px;
+    color: #039a2c;
+    overflow: auto;
+    resize: none;
+}
+
+.float-left {
+    float: left;
+}
+
+#res-task4 {
+    width: 600px;
+}
