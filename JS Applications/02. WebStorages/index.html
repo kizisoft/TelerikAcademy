@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>02. Web-Storages</title>
+    <link href="styles/styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="root" class="border">
+        <div class="border img">
+            <img class="main-image" src="images/main-image.jpg" width="500" height="200">
+            <img class="name" src="images/name.png">
+        </div>
+        <div class="content border">
+            <img src="images/ram.png" class="ram" />
+            <img src="images/sheep.png" class="sheep" width="80" />
+            <label class="label">Guess the 4 digits secret number </label>
+            <div class="digits border">
+                <div class="digit-holder border"><span class="digit">?</span></div>
+                <div class="digit-holder border"><span class="digit">?</span></div>
+                <div class="digit-holder border"><span class="digit">?</span></div>
+                <div class="digit-holder border"><span class="digit">?</span></div>
+            </div>
+            <label class="label" for="user-in">Enter your number</label>
+            <br />
+            <input class="user-in border" type="text" id="user-in" maxlength="4" />
+            <br />
+            <button id="guess" class="button border">Guess</button>
+            <br />
+            <div class="turns border">
+                <label class="turns-content">TURNS</label>
+                <hr />
+                <div id="turns-result">
+                    <ul id="turns-odd"></ul>
+                    <ul id="turns-even"></ul>
+                </div>
+            </div>
+            <button id="new" class="button border">New Game</button>
+            <button id="score" class="button border">High Score</button>
+        </div>
+    </div>
+    <div id="msg-wrapper" class="msg-wrapper"></div>
+    <div id="msg-holder" class="msg-holder border">
+        <h1>YOU WIN!!!</h1>
+        <label class="label" for="hs-user-in">Enter your name</label>
+        <br />
+        <input class="user-in border" type="text" id="hs-user-in" />
+        <br />
+        <button id="msg-btn" class="button border">Save</button>
+    </div>
+    <div id="hs-holder" class="msg-holder border">
+        <h1>HIGH SCORE</h1>
+        <hr />
+        <div class="hs-size">
+            <ul id="hs"></ul>
+        </div>
+        <br />
+        <button id="hs-exit" class="button border">Exit</button>
+        <button id="hs-clear" class="button border">Clear</button>
+    </div>
+    <script src="scripts/TYPES.js"></script>
+    <script src="scripts/RandomDigit.js"></script>
+    <script src="scripts/RandomNumber.js"></script>
+    <script src="scripts/Engine.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
