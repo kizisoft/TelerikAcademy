@@ -1,0 +1,129 @@
+html, body, div, span, input, ul, li, p, button, label, h1, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 10px;
+    width: 40%;
+    text-align: center;
+    background: #ffca90;
+}
+
+.root {
+    margin: 15px;
+    background: #81cfff;
+}
+
+.border {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+}
+
+.label, h1 {
+    margin: 10px;
+    font-family: "Segoe Print", Arial, serif;
+    font-size: 22px;
+    color: #3354ff;
+}
+
+.button {
+    margin: 0 10px 10px 10px;
+    height: 30px;
+    width: 150px;
+    background: #81cfff;
+    color: #aa031a;
+    font-size: 20px;
+    background: linear-gradient(to bottom, #81cfff 0%, #3ab2d1 60%, #40b9c9 83%, #81cfff 100%);
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background: linear-gradient(to bottom, #61afdf 0%, #1a92b1 60%, #2099a9 83%, #61afdf 100%);
+}
+
+.right {
+    text-align: right;
+}
+
+.logout {
+    margin: 5px 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #aa031a;
+}
+
+.logout:hover {
+    text-decoration: underline;
+}
+
+.small {
+    font-size: 18px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 30px;
+    color: #3354ff;
+}
+
+.input {
+    margin: 0 10px 10px 10px;
+    padding: 5px;
+    width: 80%;
+    height: 20px;
+    font-size: 18px;
+    color: #aa031a;
+    background: #fdffb1;
+    outline: none;
+}
+
+.content {
+    margin: 0 10px;
+    width: 96%;
+    height: 400px;
+    background: #fdffb1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.chat {
+    background: #81cfff;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.send, .login {
+    margin: 10px;
+    width: 96%;
+    background: #ffca90;
+}
+
+textarea.input {
+    resize: none;
+    width: 94%;
+    height: 70px;
+}
+
+.content ul {
+    margin: 5px;
+    list-style-type: none;
+    text-align: left;
+}
+
+.content li{
+    margin: 15px 0;
+}
+
+.content span {
+    color: #aa031a;
+    font-size: 20px;
+}
+
+.content p {
+    margin-left: 10px;
+    color: #3354ff;
+    word-wrap: break-word;
+    text-align: justify;
+}
