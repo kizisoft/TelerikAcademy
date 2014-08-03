@@ -1,0 +1,36 @@
+<div id="getposts-page" class="getpost-page"> 
+    <div>
+        <label>Number of posts:</label>
+        <input type="number" id="posts-count" class="text-box" >
+        <button id="getmessages-button" class="button">Show posts</button>
+        <label class="hintForSort">To sort posts by your choice - click on the column header that you want to sort by.</label>
+    </div> 
+    <table id = "posts-containter" class = 'posts-containter'>
+    <script id="posts-template" type="text/x-handlebars-template">
+        <table class="posts-list">
+            <tr class = "header-row">
+                <th>Posted by</th>
+                <th>Date</th>
+                <th>Title</th>
+                <th>Body</th>
+            </tr>       
+            {{#each posts}}  
+            <tr class = "posts-item">
+                <td>
+                    {{user.username}}
+                </td>
+                <td>
+                    {{postDate}}
+                </td>
+                <td>
+                    {{title}}
+                </td>
+                 <td>
+                    {{body}}
+                </td>                             
+            </tr>
+            {{/each}}           
+        </table>
+    </script>
+    </table>
+</div>
