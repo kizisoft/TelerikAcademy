@@ -1,0 +1,6 @@
+C:\C# Tests\HomeworksTelerik\MyHomeworks\C# Part II\01. Arrays\20. VariationsKofN\bin\Debug\_20.VariationsKofN.exe.config
+C:\C# Tests\HomeworksTelerik\MyHomeworks\C# Part II\01. Arrays\20. VariationsKofN\bin\Debug\_20.VariationsKofN.exe
+C:\C# Tests\HomeworksTelerik\MyHomeworks\C# Part II\01. Arrays\20. VariationsKofN\bin\Debug\_20.VariationsKofN.pdb
+C:\C# Tests\HomeworksTelerik\MyHomeworks\C# Part II\01. Arrays\20. VariationsKofN\obj\Debug\_20.VariationsKofN.exe
+C:\C# Tests\HomeworksTelerik\MyHomeworks\C# Part II\01. Arrays\20. VariationsKofN\obj\Debug\_20.VariationsKofN.pdb
+C:\C# Tests\HomeworksTelerik\MyHomeworks\C# Part II\01. Arrays\20. VariationsKofN\obj\Debug\20. VariationsKofN.csprojResolveAssemblyReference.cache

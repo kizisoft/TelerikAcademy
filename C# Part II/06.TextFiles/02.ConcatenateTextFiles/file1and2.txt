@@ -1,0 +1,13 @@
+General Requirements
+Please define and implement the following assets in your project:
+At least 1 multi-dimensional array
+At least 3 one-dimensional arrays
+At least 10 methods (separating the application�s logic)
+At least 3 existing .NET classes (like System.Math or System.DateTime)
+At least 2 exception handlings
+At least 1 use of external text file
+Optional Requirements
+If you have a chance, time and a suitable situation, you might add some of the following to your project:
+Object Oriented Programming (classes, interfaces, structures, inheritance, polymorphism, etc.)
+Serialization of the data in the text file (binary)
+Sound effects during the gameplay

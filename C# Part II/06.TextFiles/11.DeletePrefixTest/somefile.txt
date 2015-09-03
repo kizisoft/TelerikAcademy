@@ -1,0 +1,4 @@
+1.General Requirements 2.Please define and implement the following assets in your project 3.At least 4.At least 3 one-dimensional arrays
+5.At least 10 methods (separating the application’s logic)
+6.At least 3 existing .NET classes (like System.Math or System.DateTime)
+7.At least 2 exception handlings

@@ -1,0 +1,8 @@
+1.General Requirements testsomeword
+2.Please define and implement the following assets in your project test :
+3.At least test1 multi-dimensional array
+4.At least 3 one-dimensional arrays
+5.At least 10 methods (separating the application’s logic)
+6.At least 3 existing .NET classes (like System.Math or System.DateTime)
+7.At least 2 exception handlings
+testsomeword 8.At least 1 use of external text file

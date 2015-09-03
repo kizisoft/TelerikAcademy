@@ -1,0 +1,5 @@
+Optional 
+If you have a chance, time  a uitable ituation, you might add ome    to  :
+Object Oriented Programmg (clae, terface, tructure, heritance, polymphim, etc.)
+Serialization   data     (bary)
+Sound effect durg  gameplay
