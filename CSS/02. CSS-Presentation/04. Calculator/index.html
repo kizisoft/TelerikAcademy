@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta charset="utf-8" />
+        <title>Calculator</title>
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <header>
+                <img src="imgs/icon.png" alt="Calculator" width="15" height="20" />
+                <label>Calculator</label>
+                <button id="winClose" class="winBt">X</button>
+                <button id="winMax" class="winBt" disabled></button>
+                <button id="winMin" class="winBt"></button>
+            </header>
+
+            <div id="main">
+                <nav class="clearfix">
+                    <ul>
+                        <li><a href="#view">View</a></li>
+                        <li><a href="#edit">Edit</a></li>
+                        <li><a href="#help">Help</a></li>                        
+                    </ul>
+                </nav>
+
+                <div id="display">
+                    <label>8854455</label>
+                </div>
+
+                <div id="binary">
+                    <ul>
+                        <li>0000</li>
+                        <li class="digit1">63</li>
+                        <li>0000</li>
+                        <li class="digit1">31</li>
+                    </ul>
+                    <ul>
+                        <li>0000</li>
+                        <li class="digit1 digit2"></li>
+                        <li>0000</li>
+                        <li class="digit1 digit2"></li>
+                    </ul>
+                    <ul>
+                        <li>0000</li>
+                        <li class="digit1 digit2"></li>
+                        <li>1000</li>
+                        <li class="digit1 digit2"></li>
+                    </ul>
+                    <ul>
+                        <li>0000</li>
+                        <li class="digit1 digit2"></li>
+                        <li>0111</li>
+                        <li class="digit1 digit2"></li>
+                    </ul>
+                    <ul>
+                        <li>0000</li>
+                        <li class="digit1">47</li>
+                        <li>0001</li>
+                        <li class="digit1">15</li>
+                    </ul>
+                    <ul>
+                        <li>0000</li>
+                        <li class="digit1 digit2"></li>
+                        <li>1011</li>
+                        <li class="digit1 digit2"></li>
+                    </ul>
+                    <ul>
+                        <li>0000</li>
+                        <li class="digit1 digit2"></li>
+                        <li>1011</li>
+                        <li class="digit1 digit2"></li>
+                    </ul>
+                    <ul>
+                        <li>0000</li>
+                        <li class="digit1">32</li>
+                        <li>0111</li>
+                        <li class="digit1">0</li>
+                    </ul>
+                </div>
+
+                <div id="radio">
+                    <div class="radio">
+                        <input type="radio" name="radio1" id="hex" />
+                        <label for="hex">Hex</label>
+                        <br/>
+                        <input type="radio" name="radio1" id="dec" checked />
+                        <label for="dec">Dec</label>
+                        <br/>
+                        <input type="radio" name="radio1" id="oct" />
+                        <label for="oct">Oct</label>
+                        <br/>
+                        <input type="radio" name="radio1" id="bin" />
+                        <label for="bin">Bin</label>
+                        <br/>
+                    </div>
+
+                    <div class="radio">
+                        <input type="radio" name="radio2" id="qword" checked />
+                        <label for="qword">Qword</label>
+                        <br/>
+                        <input type="radio" name="radio2" id="dword" />
+                        <label for="dword">Dword</label>
+                        <br/>
+                        <input type="radio" name="radio2" id="word" />
+                        <label for="word">Word</label>
+                        <br/>
+                        <input type="radio" name="radio2" id="byte" />
+                        <label for="byte">Byte</label>
+                        <br/>
+                    </div>
+                </div>
+
+                <span class="buttons">
+                    <button id="empty" class="buttonsDisabled" disabled>&emsp;</button>
+                    <button class="buttonsSpecial2">(</button>
+                    <button class="buttonsSpecial2">RoL</button>
+                    <button class="buttonsSpecial2">Or</button>
+                    <button class="buttonsSpecial2">Lsh</button>
+                    <button class="buttonsSpecial2">Not</button>
+                </span>
+
+                <span class="buttons">
+                    <button class="buttonsSpecial2">Mod</button>
+                    <button class="buttonsSpecial2">)</button>
+                    <button class="buttonsSpecial2">RoR</button>                    
+                    <button class="buttonsSpecial2">Xor</button>
+                    <button class="buttonsSpecial2">Rsh</button>
+                    <button class="buttonsSpecial2">And</button>
+                </span>
+
+                <span class="buttons">
+                    <button class="buttonsDisabled" disabled>A</button>
+                    <button class="buttonsDisabled" disabled>B</button>
+                    <button class="buttonsDisabled" disabled>C</button>
+                    <button class="buttonsDisabled" disabled>D</button>
+                    <button class="buttonsDisabled" disabled>E</button>
+                    <button class="buttonsDisabled" disabled>F</button>
+                </span>
+
+                <span class="buttons">
+                    <button class="buttonsSpecial">MC</button>
+                    <button class="buttonsSpecial2">←</button>
+                    <button class="buttonsDigit">7</button>
+                    <button class="buttonsDigit">4</button>
+                    <button class="buttonsDigit">1</button>
+                </span>
+
+                <span class="buttons">
+                    <button class="buttonsSpecial">MR</button>
+                    <button class="buttonsSpecial2">CE</button>
+                    <button class="buttonsDigit">8</button>
+                    <button class="buttonsDigit">5</button>
+                    <button class="buttonsDigit">2</button>
+                </span>
+
+                <span class="btn">
+                    <button id="btnZero" class="buttonsDigit">0</button>
+                </span>
+
+                <span class="buttons">
+                    <button class="buttonsSpecial">MS</button>
+                    <button class="buttonsSpecial2">C</button>
+                    <button class="buttonsDigit">9</button>
+                    <button class="buttonsDigit">6</button>
+                    <button class="buttonsDigit">3</button>
+                    <button class="buttonsDisabled" disabled>,</button>
+                </span>
+
+                <span class="buttons buttonsAfter">
+                    <button class="buttonsSpecial">M+</button>
+                    <button class="buttonsSpecial2">±</button>
+                    <button class="buttonsSpecial2">/</button>
+                    <button class="buttonsSpecial2">*</button>
+                    <button class="buttonsSpecial2">-</button>
+                    <button class="buttonsSpecial2">+</button>
+                </span>
+
+                <span class="buttons buttonsAfter">
+                    <button class="buttonsSpecial">M-</button>
+                    <button class="buttonsDisabled" disabled>√</button>
+                    <button class="buttonsDisabled" disabled>%</button>
+                    <button class="buttonsDisabled" disabled>1/x</button>
+                    <button id="equals" class="buttonsSpecial2">=</button>
+                </span>
+            </div>
+        </div>
+    </body>
+</html>

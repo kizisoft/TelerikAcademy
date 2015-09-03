@@ -1,0 +1,36 @@
+html, body, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #f00;
+    text-decoration: underline;
+}
+
+li ul{
+    display: none;
+}
+
+li:hover > ul {
+    display: block;
+    margin-left: 3%;
+}
+
+li:hover > ul > li > a:not(:hover) {
+    color: #999;
+}

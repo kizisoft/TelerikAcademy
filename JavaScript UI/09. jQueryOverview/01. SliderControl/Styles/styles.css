@@ -1,0 +1,44 @@
+#root {
+	text-align: center;
+}
+#slider {
+	padding: 0;
+	width: 1024px;
+	height: 768px;
+	border: 3px inset #888;
+	overflow: hidden;
+	list-style-type: none;
+	background: #000;
+}
+.slider-item {
+	margin: 0;
+	padding: 0;
+	display: none;
+	position: relative;
+	opacity: 0;
+}
+.current {
+	display: block;
+}
+p {
+	margin: 0;
+	padding: 10px;
+	background: #85BCE0;
+	height: 768px;
+}
+.btn {
+	position: absolute;
+	top: 19px;
+	opacity: 0;
+	width: 100px;
+	height: 768px;
+}
+.right {
+	left: 935px;
+}
+.left {
+	left: 11px;
+}
+.image-btn{
+	vertical-align: -380px;
+}

@@ -1,0 +1,49 @@
+html, body, div, span, form, input, label {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    background-color: #bad0e0;
+    height: 100%;
+}
+
+form {
+    padding: 5px;
+    margin: 5px;
+    background-color: #edf0a5;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #434343;
+    border-radius: 10px;
+}
+
+.star {
+    color: #f00000;
+}
+
+.input {
+    float: right;
+    margin-left: 5px
+}
+
+label {
+    float: left;
+}
+
+.inputHolder {
+    margin: 10px;
+}
+
+#submit_member {
+    background: url(submit.PNG) no-repeat;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    border: none;
+}
+
+.submitHolder { 
+    margin: 10px 10px 0px 10px;
+}

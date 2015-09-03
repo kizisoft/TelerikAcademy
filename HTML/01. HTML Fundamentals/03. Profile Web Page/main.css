@@ -1,0 +1,48 @@
+div, li, ul, section, nav, h1, h2, p, table, img, html, body, th, tr, td, thead, tbody {
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper {
+    background-color: #add8e6;
+    height: 100%;
+}
+
+header {
+    padding: 20px 10px;
+}
+
+nav {
+    padding: 0px 30px;
+}
+
+ul {
+    margin: 5px 20px 20px;
+    font-size: 1.15em;
+}
+
+section {
+    padding: 0px 10px;
+}
+
+h2, p {
+    margin: 20px 0px;
+}
+
+img {
+    margin: 10px 0px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    height: 160px;
+    width: 160px;
+}
+
+dl {
+    margin: 20px 0px;
+}
+
+dl dd {
+    padding: 0px 40px;
+    margin: 2px;
+}

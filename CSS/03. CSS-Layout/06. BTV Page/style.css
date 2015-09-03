@@ -1,0 +1,86 @@
+html, header, body, section, article, nav, ul, li, div, a, h2, span {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    /  display: inline-table;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+body {
+    font: 10px Verdana, Arial, Helvetica, sans-serif; 
+}
+
+#wrapper {
+    width: 610px;
+    border: 1px solid #295A68;
+    border-radius: 5px;
+    background: #1E3741;
+}
+
+a {
+    color: #aaa;   
+}
+
+nav a {
+    padding: 10px;
+    background: #4B5F67;
+    outline: none;
+    margin-right: 1px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav li {
+    display: table-cell;
+    font-size: 1.1em;    
+}
+
+.current1:target {
+    background: #1E3741;
+}
+
+.current2:target h2 {
+    background: #00968C;
+    color: #fff;
+    outline: none;
+}
+
+#sec1, #sec2 {
+    float: left;   
+    margin-top: 20px;
+}
+
+#sec1 {
+    width: 261px;
+    font-size: 0.7em;
+    font-weight: normal;
+}
+
+a h2 {
+    padding: 10px 20px 10px 10px;
+    border-top: 1px solid #00968C;
+}
+
+article:first-child h2 {
+    border-top: none;
+}

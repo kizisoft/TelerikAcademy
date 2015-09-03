@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homework-design-2</title>
+        <meta charset="utf-8" />
+        <script src="../modernizr.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="#">LinkedIn</a> </h1>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>What is LinkedIn?</li>
+                    <li>Join Today</li>
+                    <li>
+                        <form action="#" method="POST" name="login">
+                            <fieldset>
+                                <legend>Sign In</legend>
+                                <ul>
+                                    <li>
+                                        <label for="emailLogin">Email:</label>
+                                        <input type="text" name="emailLogin" value="" id="emailLogin" />
+                                    </li>
+                                    <li>
+                                        <label for="passwordLogin">Password:</label>
+                                        <input type="password" name="passwordLogin" value="" id="passwordLogin" />
+                                    </li>
+                                    <li>
+                                        <input type="submit" name="submit" value="Sign In" id="btnLogin" />
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>	
+            <h2>Over 175 million professionals use LinkedIn to exchange information, ideas and opportunities</h2>
+            <ul>
+                <li>Stay informed about your contacts and industry</li>
+                <li>Find the people &amp; knowledge you need to achieve your goals</li>
+                <li>Control your professional identity online</li>
+            </ul>	
+        </section>
+
+        <section>
+            <h3>Join LinkedIn Today</h3>
+            <form action="#" method="POST" name="regForm">
+                <fieldset>
+                    <legend>Sign Up</legend>
+                    <ul>
+                        <li>
+                            <label for="firstName">First Name:</label>
+                            <input type="text" name="firstName" id="firstName" value="" />
+                        </li>
+                        <li>
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" name="lastName" id="lastName" value="" />
+                        </li>
+                        <li>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" value="" />
+                        </li>
+                        <li>
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" value="" />
+                            <p>6 or more characters</p>
+                        </li>
+                    </ul>
+                    <p>
+                        <input type="submit" name="join" value="Join Now" /><a href="#">*</a>
+                    </p>
+                    <p>
+                        Already on LinkedIn?
+                        <a href="#">Sign in.</a>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+
+        <section>
+            <form name="searchForm" method="post">
+                <h3>Search for someone by name:</h3>
+                <ul>
+                    <li>
+                        <label for="first">First Name</label>
+                        <input type="text" name="first" id="first" />
+                    </li>
+                    <li>
+                        <label for="last">Last Name</label>
+                        <input type="text" name="last" id="last" />
+                    </li>
+                </ul>
+                <p>
+                    <input class="btn-secondary" type="submit" name="search" value="Go" />
+                </p>
+            </form>
+        </section>
+    </body>
+</html>

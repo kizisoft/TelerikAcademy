@@ -1,0 +1,29 @@
+.holder {
+	border: 1px solid #000;
+}
+.holder, .cell, .holder span {
+	display: inline-block;
+}
+.line {
+	border-bottom: 1px solid #000;
+}
+.line:last-of-type, .cell:last-of-type {
+	border: none;
+}
+.cell {
+	border-right: 1px solid #000;
+}
+.holder span {
+	margin: 5px 10px;
+	width: 100px;
+}
+.holder .item {
+	text-align: left;
+}
+.holder .cell:last-child span, .header {
+	text-align: center;
+}
+.header {
+	font-size: 1.1em;
+	font-weight: 900;
+}

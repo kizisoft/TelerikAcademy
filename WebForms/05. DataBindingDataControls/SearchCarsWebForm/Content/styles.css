@@ -1,0 +1,9 @@
+﻿.radio input[type=radio],
+.checkbox input[type=checkbox] {
+    margin-left: 5px;
+}
+
+.radio label,
+.checkbox label {
+    margin-right: 10px;
+}

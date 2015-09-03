@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="main.css"/>
+        <title>Registration Form Web Page</title>
+        <meta charset="utf-8" />
+        <script src="../modernizr.js" type="text/javascript"></script>
+    </head>
+
+    <body id="wrapper">
+        <form id="reg" method="post" action="">
+
+            <div class="line">
+                <span class="label">Last Name</span>
+                <span class="field"><input type="text" name="lastName" placeholder="Your Last Name" required /></span>
+            </div>
+
+            <div class="line">
+                <span class="label">First Name</span>
+                <span class="field"><input type="text" name="firstName" placeholder="Your First Name" required /></span>
+            </div>
+
+            <div class="line">
+                <span class="label">Address</span>
+                <span class="field"><textarea name="address" placeholder="Your Address"></textarea></span>
+            </div>
+
+            <div class="line">
+                <span class="label">City</span>
+                <span class="field">
+                    <input type="text" name="city" placeholder="Your City" />
+                    State<input type="text" name="state" />
+                </span>
+            </div>
+
+            <div class="line">
+                <span class="label">Zip/Postal Code</span>
+                <span class="field"><input type="number" name="postalCode" /></span>
+            </div>
+
+            <div class="line">
+                <span class="label">Country</span>
+                <span class="field">
+                    <select name="country">
+                        <option value="bg" selected>Bulgaria</option>
+                        <option value="ro">Romania</option>
+                        <option value="gr">Greece</option>
+                        <option value="d">German</option>
+                        <option value="fr">France</option>
+                    </select>
+                </span>
+            </div>
+
+            <div class="line">
+                <span class="label">Phone (country code, area code, number)</span>
+                <span class="field">
+                    (+<input type="number" name="countryCode" value="359" />)
+                    <input type="number" name="areaCode" value="888" />
+                    -<input type="number" name="phoneNumber" placeholder="Your Phone Number" />
+                </span>
+            </div>
+
+            <div class="line">
+                <span class="label">E-mail</span>
+                <span class="field"><input type="email" name="email" placeholder="aaaaa@bbbb.com" required /></span>
+            </div>
+
+            <div class="line">
+                <span class="label">Birth date</span>
+                <span class="field"><input type="date" name="birthDate" /></span>
+            </div>
+
+            <div class="line">
+                <span class="label">Gender</span>
+                <span class="field">
+                    <select name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </span>
+            </div>
+
+            <div class="line">
+                <span class="label">Start date</span>
+                <span class="field"><input type="radio" name="gender" id="spring" /><label class="radio" for="spring">Spring 2013</label>
+                    <input type="radio" name="gender" id="summer" /><label class="radio" for="summer">Summer 2013</label>
+                </span>
+            </div>
+
+            <div class="line">
+                <span class="label">Comments/Questions</span>
+                <span class="field"><textarea name="comments" placeholder="Please send me more information about the lodging."></textarea></span>
+            </div>
+
+            <div class="submit">
+                <input class="inSubmit" type="submit" value="Submit" />
+                <input class="inSubmit" type="reset" value="Clear This Form" />
+            </div>
+
+        </form>
+    </body>
+</html>

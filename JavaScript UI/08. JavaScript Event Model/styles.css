@@ -1,0 +1,52 @@
+.container-todo-list-main {
+	padding: 10px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	width: 400px;
+}
+.container-todo-list-main header {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #000;
+	text-align: center;
+	font-size: 16px;
+}
+.container-todo-list-main input {
+	margin-left: 10px;
+	width: 280px;
+}
+.container-todo-list-main textarea {
+	width: 395px;
+	height: 100px;
+	resize: none;
+}
+.container-todo-list-add {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000;
+}
+.container-todo-list {
+	margin: 0;
+	padding: 0;
+}
+.container-todo-list-item {
+	margin-bottom: 5px;
+	list-style-type: none;
+}
+.container-todo-list-item .label {
+	padding-left: 10px;
+	border: 2px outset #bbb;
+	background: #999;
+	cursor: pointer;
+}
+.container-todo-list-item .label span {
+	padding: 0 5px;
+	border: 1px dashed #000;
+	color: #fff;
+	background: #B50000;
+	font: 16px Calibri;
+	float: right;
+}
+.container-todo-list-item .description {
+	padding: 10px;
+	border: 1px solid #bbb;
+}

@@ -1,0 +1,61 @@
+html, body, canvas {
+	margin: 0;
+	padding: 0;
+}
+
+canvas {
+	border: 1px solid #f00;
+	cursor: crosshair;
+}
+
+img {
+	display: none;
+}
+
+div {
+	margin: 10px;
+}
+
+textarea {
+	resize: none;
+}
+
+.false {
+	background: #fff;
+}
+
+.true {
+	background: #EA1206
+}
+
+.left {
+	float: left;
+}
+
+.info {
+	width: 210px;
+}
+
+.green {
+	padding: 2px 10px;
+	background: #B0FFB0;
+}
+
+.small {
+	display: inline-block;
+	width: 30px;
+	text-align: right;
+}
+
+.big {
+	width: 200px;
+	height: 100px;
+	font-size: 25px;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0
+}

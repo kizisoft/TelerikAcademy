@@ -1,0 +1,116 @@
+html, header, body, footer, section, article, nav, form, input, ul, li, div, a, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+body {
+    color: #A4A4A4;
+    font: 13px/17px Verdana, Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    width:  662px;
+    height: 299px;
+    border: 1px solid #806850;
+    border-radius: 7px;
+    background-color: #3B3B3B;
+}
+
+img {
+    margin: 7px 11px;
+}
+
+header {
+    color: #A4A4A4;
+    font: 13px/17px Verdana, Arial, Helvetica, sans-serif;
+    height: 66px;
+    border-bottom: 1px solid #242424;
+    position: relative;
+    z-index: 7;
+}
+
+.shadow {
+    margin-top: -7px;
+    position: relative;
+    z-index: 1;
+    height: 15px;
+    background: radial-gradient(ellipse at center, #000 10%,#404040 90%);
+    opacity: 0.5;
+}
+
+form {
+    margin: -45px 0 0 71px;
+}
+
+label {
+    margin-right: 12px;
+    vertical-align: middle;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+input {
+    padding-left: 10px;
+    margin-right: 19px;
+    width: 136px;
+    height: 19px;
+    color: #020202;
+}
+
+a {
+    background: url("button.gif") no-repeat;
+    color: #fff;
+    display: inline-block;
+    width: 56px;
+    height: 28px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+span {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+article {
+    position: relative;
+    top: -9px;
+    padding: 0 10px;
+    border-top: 1px solid #242424;
+    background-color: #3B3B3B;
+    z-index: 1;
+}
+
+h1 {
+    margin-left: 1px;
+    background: #3B3B3B;
+    color: #FBD61A;
+    font: 28px/13px Georgia, "Times New Roman", Times, serif;
+}
+
+p {
+    width: 600px;
+}
+
+strong {
+    color: #fff;
+    font-weight: normal;
+}

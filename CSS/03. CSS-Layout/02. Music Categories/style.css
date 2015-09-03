@@ -1,0 +1,59 @@
+html, body, article, section, img, div, p, a, h1, header, button {
+    margin: 0;
+    padding: 0;
+    font: 18px "arial narrow", arial, sans-serif;
+    text-decoration: none;
+}
+
+#wrapper {
+    background-color: #eee;
+    padding: 11px 7px 26px 12px;
+    width: 385px;
+    border-radius: 6px;
+}
+
+article {
+    margin-top: 36.2px;
+    width: 350px;
+    padding: 15px 16px 15px 15px;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+
+img {
+    margin-right: 15px;
+    border: 1px solid #999;
+    float: left;
+}
+
+p {
+    font: 12px arial, sans-serif;
+}
+
+.btnRoot {
+    margin-top: 16px;
+    float: right;
+}
+
+.btn {
+    padding: 3px 15px 3px 20px;
+    margin-right: -1px;
+    background: left #c00 url(btn.gif) repeat-y;
+    border: 2px solid #e68282;
+    border-color: #e68282 #650000 #650000 #9c2828;
+    color: #fff;
+    font-weight: normal;
+    font: 12px arial, sans-serif;
+    text-align: right;
+}
+
+.btn:hover {
+    background-color: #ef1818;
+}
+
+.clearfix:after {
+    display: block;
+    content: '';
+    clear: both;
+    height: 0;
+}

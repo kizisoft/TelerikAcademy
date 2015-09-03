@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>06. Functions</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+    <body>
+        <div id="wrapper">
+            <ul class="tab-strip">
+                <li class="current">
+                    <a href="#task1" id="task1" class="tab-btn">Task 1</a>
+                    <div class="tab-content">
+                        1. Write a function that returns the last digit of given integer as an English word.<br />Examples: 512 -> "two", 1024 -> "four", 12309 -> "nine"
+                        <br />
+                        <br />
+                        <label for="in-task1">Enter a number: </label>
+                        <input type="text" id="in-task1" value="123" />
+                        <br />
+                        <input type="submit" id="bt-task1" value="Submit" />
+                        <br />
+                        <br />
+                        <div id="tab1"></div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#task2" id="task2" class="tab-btn">Task 2</a>
+                    <div class="tab-content">
+                        2. Write a function that reverses the digits of given decimal number.<br />Example: 256 -> 652
+                        <br />
+                        <br />
+                        <label for="in-task2">Enter a number: </label>
+                        <input type="text" id="in-task2" value="256" />
+                        <br />
+                        <input type="submit" id="bt-task2" value="Submit" />
+                        <br />
+                        <br />
+                        <div id="tab2"></div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#task3" id="task3" class="tab-btn">Task 3</a>
+                    <div class="tab-content">
+                        3. Write a function that finds all the occurrences of word in a text
+                        <br />- The search can case sensitive or case insensitive<br />- Use function overloading
+                        <br />
+                        <br />
+                        <label for="in-task31">Enter a text in ENGLISH: </label>
+                        <br />
+                        <textarea id="in-task31">Asd asdasda asd:ASD asd's (asd)d asdasdasd asdad asd!</textarea>
+                        <br />
+                        <label for="in-task32">Word to search: </label>
+                        <input type="text" id="in-task32" value="asd" />
+                        <input type="submit" id="bt-task3" value="Search" />
+                        <br />
+                        <label for="ck-task3">Case sensitive search </label>
+                        <input type="checkbox" id="ck-task3" />
+                        <br />
+                        <br />
+                        <div id="tab3"></div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#task4" id="task4" class="tab-btn">Task 4</a>
+                    <div class="tab-content">
+                        4. Write a function to count the number of divs on the web page.
+                        <br />
+                        <br />
+                        <input type="submit" id="bt-task4" value="Count" />
+                        <br />
+                        <br />
+                        <div id="tab4"></div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#task5" id="task5" class="tab-btn">Task 5</a>
+                    <div class="tab-content">
+                        5. Write a function that counts how many times given number appears in given array. Write a test function to check if the function is working correctly.
+                        <br />
+                        <br />
+                        <label for="in-task51">Enter a number: </label>
+                        <input type="text" id="in-task51" value="2" />
+                        <br />
+                        <label for="in-task52">Enter a sequence: </label>
+                        <input type="text" id="in-task52" value="2, 1, 1, 2, 3, 3, 2, 2, 2, 1" />
+                        <br />
+                        <input type="submit" id="bt-task5" value="Submit" />
+                        <br />
+                        <br />
+                        <div id="tab5"></div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#task6" id="task6" class="tab-btn">Task 6</a>
+                    <div class="tab-content">
+                        6. Write a function that checks if the element at given position in given array of integers is bigger than its two neighbors (when such exist).
+                        <br />
+                        <br />
+                        <label for="in-task61">Enter a sequence: </label>
+                        <input type="text" id="in-task61" value="4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3" />
+                        <br />
+                        <label for="in-task62">Enter a position: </label>
+                        <input type="text" id="in-task62" value="11" />
+                        <br />
+                        <input type="submit" id="bt-task6" value="Check" />
+                        <br />
+                        <br />
+                        <div id="tab6"></div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#task7" id="task7" id="" class="tab-btn">Task 7</a>
+                    <div class="tab-content">
+                        7. Write a function that returns the index of the first element in array that is bigger than its neighbors, or -1, if there's no such element.<br />- Use the function from the previous exercise.
+                        <br />
+                        <br />
+                        <label for="in-task7">Enter a sequence: </label>
+                        <input type="text" id="in-task7" value="4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3" />
+                        <br />
+                        <input type="submit" id="bt-task7" value="Search" />
+                        <br />
+                        <br />
+                        <div id="tab7"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>

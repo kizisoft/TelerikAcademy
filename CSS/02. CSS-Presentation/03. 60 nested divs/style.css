@@ -1,0 +1,19 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 20px;
+}
+
+div {
+    border: 1px solid #f00;
+    border-radius: 120px;
+    width: 90%;
+    background-color: #000;
+}
+
+#hidden {
+    display: none;
+}

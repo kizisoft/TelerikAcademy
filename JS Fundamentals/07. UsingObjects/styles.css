@@ -1,0 +1,38 @@
+﻿.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+.float {
+    float: left;
+}
+
+.small {
+    width: 50px;
+}
+
+.big {
+    width: 290px;
+}
+
+.info {
+    visibility: hidden;
+}
+
+.result {
+    margin-left: 20px;
+    padding: 5px;
+    width: 600px;
+    height: 310px;
+    background: #000;
+    color: #aaa;
+    border: 3px ridge #bbb;
+    overflow-y: scroll;
+    font-family: Consolas;
+}
+
+p {
+    width: 480px;
+}

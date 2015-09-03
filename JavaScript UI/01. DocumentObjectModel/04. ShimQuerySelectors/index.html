@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>04. ShimQuerySelectors</title>
+	<script src="scripts.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="wrapper">
+		I'm a WRAPPER!
+		<div class="divs">
+			<span>I'm a span inside a WRAPPER!</span>
+			<div class="divs">
+				<p>
+					I'm a paragraf!
+				</p>
+			</div>
+			<div class="divs">
+				<ul id="theUL">
+					<li>I'm li1!</li>
+					<li>I'm li2!</li>
+					<li>I'm li3!</li>
+				</ul>
+				<div class="divs">
+					<div class="divs">	
+						I'm also DIV!
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br />
+	<label for="selector">Enter a selector: </label>
+	<input type="text" name="selector" id="selector" value="div>div>div li:nth-child(2n+1)" style="width: 300px">
+	<button id="select">Select</button>
+	<button id="selectAll">Select All</button>
+	<br />
+	<br />
+	<div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,269 @@
+.clearfix, body header, body header nav, body header nav ul, body section, body aside {
+    zoom: 1;
+}
+
+.clearfix:after, body header nav:after, body header nav ul:after, body section:after, body aside:after, .clearfix:before, body header nav:before, body header nav ul:before, 
+	body section:before, body aside:before {
+        content: "\0020";
+        display: block;
+        height: 0;
+        overflow: hidden;
+    }
+
+.clearfix:after, body header nav:after, body header nav ul:after, body section:after, body aside:after {
+        clear: both;
+    }
+
+@border-style: 1px solid #000000;
+@border-angle1: 15px;
+@border-angle2: 5px;
+@background: #9215f2;
+@body-font: 13px;
+
+.linear-gradient(@from, @to, @repeat:none) {
+    background-image: -webkit-linear-gradient(top, @from, @to);
+    background-image: -moz-linear-gradient(top, @from, @to);
+    background-image: -ms-linear-gradient(top, @from, @to);
+    background-image: -o-linear-gradient(top, @from, @to);
+    background-image: linear-gradient(to bottom, @from, @to);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{@from}', endColorstr='#{@to}',GradientType=0 );
+	background-repeat:@repeat;
+}
+
+.clearfix:after, ul:after, #reg-form-container:after{
+	clear:both;
+}
+
+body{
+	background-color: @background;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: @body-font; 
+    color: white;
+	margin: 0;
+	padding: 0;
+	
+	header{
+		.linear-gradient(#d593ff, #9215f2);
+		margin: 0;
+		padding-top: 10px;
+		padding-left: 15px;
+        overflow: hidden;
+
+		nav{
+			clear: both;
+			width: 75%;
+			float: left;
+			margin: 20px;
+			padding: 10px;
+			border: @border-style;
+			border-radius: @border-angle1;
+			font-size: 1.4em;
+		
+		ul{
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			
+			li{
+				display: inline-block;
+			
+				a{
+					text-decoration: none;
+					color: #FFFFFF; 
+					padding: 0 10px 0 10px;
+					
+				}
+				
+				&:hover{
+				
+					& > a{ 
+						text-decoration: underline;
+					}
+					
+					& > ul{
+						display: block;
+					}
+				}
+			}	
+				ul{
+					display: none;
+					position: absolute;
+					background: #ca8df7;
+					opacity: 0.9;
+					border-radius: @border-angle1;
+					
+					li{
+						display: block;
+						margin: 0 10px;
+						padding: 10px 0;
+						border-bottom: @border-style;
+						
+						&:hover{
+							& > a{
+								color: @background;
+							}
+						}
+						
+						&:last-of-type{
+							border-bottom: none;
+						}
+				}
+			}
+		}
+	}
+		
+		#reg-form-container{
+			float: right;
+			position: relative;
+			margin-top: 20px;
+			margin-right: 50px;
+			
+			input{
+				width: 130px;
+				border: @border-style;
+				border-radius: @border-angle1;
+				background-color: #b35ef3;
+				padding: 2px 5px;
+				margin: 5px;
+			}
+			
+			button{
+                font-weight: bold;
+				color: #FFFFFF;
+                border-top: 1px inset #fff;
+				border-left: 1px inset #fff;
+				border-right: 1px outset #9215f2;
+				border-bottom: 1px outset #9215f2;
+				background-color: #b35ef3;
+                border-radius: 10px;
+                padding: 5px 8px;
+				margin-right: 0;
+			}
+		}
+		
+		#logo-container{
+			width: 320px;
+			height: 73px;
+			float: left;
+		}
+		
+		section{
+			width: 75%;
+		}
+	}
+	
+	section{
+			width: 74%;
+			float: left;
+			overflow: hidden;
+			background-color: @background;
+			
+			article{
+				border: @border-style;
+				border-radius: @border-angle1;
+				margin: 20px;
+			}
+			
+				header{
+					background: none;
+				}
+			
+			h1{
+				font-size: 1.4em;
+				margin: 15px 0 5px 5px;
+			}
+			
+			p{
+				margin: 0;
+				padding: 0 10px 10px 15px;
+			}
+			
+			footer{
+				text-align: right;
+				margin: 10px;
+				
+				p{
+					text-decoration: none;
+					font-size: @body-font;
+					font-weight: bold;
+					
+					a{
+						text-decoration: none;
+						color: #ca8df7;
+					}
+					
+					a:hover{
+						text-decoration: underline;
+					}
+					
+					time{
+						font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+					}
+				}
+			}
+		}
+		
+	aside{
+		float: left;
+		width: 20%;
+		margin-top: 20px;
+		
+		& > ul{
+			list-style-type: none;
+			
+			& > li{
+				border: @border-style;
+				border-radius: @border-angle2;
+				margin: 15px 0;
+                padding: 15px;
+				
+				h2{
+					font-size: 1.1em;
+				}
+				
+				p{
+					margin: 10px 5px 10px 5px;
+					
+					a{
+						text-decoration: none;
+						color: #ca8df7;
+					}
+					
+					strong{
+						color: #cccccc;
+                        font-weight: bold;
+                        font-style: normal;
+					}
+					
+					em{
+						color: #cccccc;
+                        font-weight: normal;
+                        font-style: italic;
+					}
+				}
+
+				ul{
+					list-style-type: none;
+					margin-top: 10px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+					padding: 0;
+					
+					li{
+						margin-top: 5px;
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                        background: url(images/li-dot.png) no-repeat;
+                        background-position: 0 50%;
+                        padding-left: 25px;
+					}
+				}
+			}
+		}
+	}
+	
+	footer{
+		clear: both;
+		text-align: center;
+	}
+} 

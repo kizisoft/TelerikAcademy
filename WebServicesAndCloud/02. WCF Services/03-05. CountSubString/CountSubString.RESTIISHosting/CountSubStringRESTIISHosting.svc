@@ -1,0 +1,5 @@
+﻿<%@ ServiceHost Language="C#"
+    Debug="true"
+    Service="CountSubString.RESTServices.CountSubStringRESTService"
+    CodeBehind="CountSubStringRESTService.cs"
+    Factory="System.ServiceModel.Activation.WebServiceHostFactory" %>

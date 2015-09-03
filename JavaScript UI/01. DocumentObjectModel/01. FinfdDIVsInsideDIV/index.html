@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>01. FinfdDIVsInsideDIV</title>
+	<link href="styles.css" rel="stylesheet" />
+	<script src="scripts.js"></script>
+</head>
+<body>
+	<div>
+		I'm a WRAPPER!
+		<div>
+			<span>I'm a span inside a WRAPPER!</span>
+			<div>
+				<p>
+					I'm a paragraf!
+				</p>
+			</div>
+			<div>
+				<ul>
+					<li>I'm li!</li>
+					<li>I'm li!</li>
+					<li>I'm li!</li>
+				</ul>
+				<div>
+					<div>	
+						I'm also DIV!
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br />
+	<button id="selector">Find DIVs with querySelectorAll()</button>
+	<button id="tagName">Find DIVs with getElementsByTagName()</button>
+	<br />
+	<br />
+	<div id="result"></div>
+</body>
+</html>

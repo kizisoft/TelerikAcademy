@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>01. DrawGraphics</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<script src="scripts.js" type="text/javascript"></script>
+</head>
+<body>
+	<canvas id="mainCanvas" width="1150" height="650"></canvas>
+	<div id="wrapper">
+		<div class="left info">
+			Mouse coordinates:
+			<br />
+			X: <span id="coordinateX"></span>
+			<br />
+			Y: <span id="coordinateY"></span>
+			<br />
+			<br />
+			Ctrl: <span id="ctrlKey" class="small"></span> 
+			+ 
+			Alt: <span id="altKey" class="small"></span>
+			<br />
+			Command: <span id="commandInfo" class="green">Command</span>
+		</div>
+		<div class="left">
+			Current path:
+			<br />
+			<textarea name="path" id="path" cols="30" rows="10" >
+M(730, 220, #000)
+L(910, 20, #000)
+L(1090, 220, #000)
+L(730, 220, #000)
+F(730, 220, #af6161)
+S(730, 220, #000)
+L(730, 220, #000)
+L(730, 490, #000)
+L(1090, 490, #000)
+L(1090, 220, #000)
+L(730, 220, #000)
+F(730, 220, #af6161)
+S(730, 220, #000)
+M(820, 370, #000)
+L(820, 490, #000)
+M(870, 390, #000)
+L(870, 490, #000)
+M(770, 490, #000)
+L(770, 390, #000)
+S(770, 390, #000)
+B(0, 0, #none)
+M(240, 170, #000)
+L(240, 80, #000)
+L(350, 80, #000)
+L(350, 170, #000)
+F(350, 170, #236A9A)
+B(0, 0, #none)
+M(240, 170, #000)
+L(240, 80, #000)
+M(350, 80, #000)
+L(350, 170, #000)
+S(350, 170, #000)
+B(0, 0, #none)
+M(980, 170, #000)
+L(980, 70, #000)
+L(1020, 70, #000)
+L(1020, 170, #000)
+F(980, 170, #af6161)
+S(980, 170, #000)
+B(0, 0, #none)
+M(755, 250, #000)
+L(890, 250, #000)
+L(890, 330, #000)
+L(755, 330, #000)
+L(755, 250, #000)
+F(755, 250, #000)
+M(930, 250, #000)
+L(1060, 250, #000)
+L(1060, 330, #000)
+L(930, 330, #000)
+L(930, 250, #000)
+F(930, 250, #000)
+M(930, 360, #000)
+L(1060, 360, #000)
+L(1060, 440, #000)
+L(930, 440, #000)
+L(930, 360, #000)
+F(930, 360, #000)
+B(0, 0, #none)
+M(820, 250, #af6161)
+L(820, 350, #af6161)
+M(760, 290, #af6161)
+L(890, 290, #af6161)
+M(990, 250, #af6161)
+L(990, 340, #af6161)
+M(930, 290, #af6161)
+L(1060, 290, #af6161)
+M(990, 360, #af6161)
+L(990, 440, #af6161)
+M(930, 400, #af6161)
+L(1060, 400, #af6161)
+S(990, 340, #af6161)
+B(0, 0, #none)
+M(280, 230, #61949e)
+L(260, 270, #61949e)
+L(280, 270, #61949e)
+M(250, 410, #61949e)
+L(310, 410, #61949e)
+M(280, 410, #61949e)
+L(340, 530, #61949e)
+M(300, 440, #61949e)
+L(480, 440, #61949e)
+L(340, 530, #61949e)
+L(210, 540, #61949e)
+L(300, 440, #61949e)
+M(410, 410, #61949e)
+L(470, 390, #61949e)
+L(510, 340, #61949e)
+M(470, 390, #61949e)
+L(500, 530, #61949e)
+M(310, 500, #61949e)
+L(330, 520, #61949e)
+M(350, 550, #61949e)
+L(370, 570, #61949e)
+S(300, 440, #61949e)
+			</textarea>
+		</div>
+		<div class="left">
+			<button id="beginPath">Begin new path</button>
+			<br />
+			<label for="color">Select a stroke color:</label>
+			<input type="color" id="color" />
+			<br />
+			<label for="fillColor">Select a fill color:</label>
+			<input type="color" id="fillColor" value="#af6161" />
+			<br />
+			<label for="rounding">Round coordinates </label>
+            <input type="checkbox" id="rounding" checked />
+			<br />
+            <br />
+            <button id="draw">Draw path</button>
+            <button id="clear">Clear canvas</button>
+		</div>
+		<div class="left">
+			<button id="show" class="big">Show Task Solution</button>
+			<br />
+		</div>
+	</div>
+	<!-- <img id="image" src="image.png" width="1148" height="641" /> -->
+	<img id="image" src="..\..\05. RaphaelJS\teleriklogo.png" width="1148" height="641" />
+</body>
+</html>

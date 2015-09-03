@@ -1,0 +1,8 @@
+body:first-of-type div {
+	width: 250px;
+	background: #ccc;
+	border: 1px solid #000;
+}
+span {
+	margin: 5px;
+}

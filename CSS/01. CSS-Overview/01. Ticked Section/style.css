@@ -1,0 +1,58 @@
+body, section, div, span, h2, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: rgb(190, 190, 190);
+}
+
+section {
+    float: left;
+    background-color: #727272;
+    width: 350px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 23px;
+    font-weight: 100;
+}
+
+dt {
+    color: #fff;
+    font-style: italic;
+    width: 150px;
+}
+
+dd, dt {
+    float: left;
+    margin-top: 18px;
+}
+
+dd div {
+    margin-top: 5px;
+}
+
+dt, dl:after {
+    clear: both;
+}
+
+.point {
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    color: rgb(113, 181, 122);
+    background-color: rgb(113, 181, 122);
+    border-radius: 100%;
+}
+
+.color-red {
+    color:  rgb(255, 2, 5);
+}
+
+.color-orange {
+    color:  rgb(240, 120, 65);
+}
+
+.color-yelow {
+    color: rgb(228, 217, 163);
+}

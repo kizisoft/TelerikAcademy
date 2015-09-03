@@ -1,0 +1,53 @@
+div, span, p, table, img, html, body, th, tr, td, thead, tbody {
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper {
+    background-color: #4a4a4a;
+    padding: 10px;
+    height: 100%;
+}
+
+table {
+    width: 100%;
+    border: none;
+    background-color: #faeeee;
+}
+
+th {
+    background-color: #8cadb7;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+p {
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+td>img {
+    height: 150px;
+    width: 150px;
+}
+
+#tbl {
+    background-color: #faeeee;
+    width: 200px;
+    height: 200px;
+}
+
+#tbl tr td {
+    border-style: inset;
+    padding: 5px;
+    text-align: center;
+}
+#td_img {
+    height: 150px;
+    width: 150px;
+}

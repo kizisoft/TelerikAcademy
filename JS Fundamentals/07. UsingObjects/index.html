@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>07. UsingObjects</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="clearfix">
+        <p class="float">
+            1. Write functions for working with shapes in  standard Planar coordinate system<br />
+            - Points are represented by coordinates P(X, Y)<br />
+            - Lines are represented by two points, marking their beginning and ending<br />
+            -> L(P1(X1,Y1), P2(X2,Y2))<br />
+            - Calculate the distance between two points<br />
+            - Check if three segment lines can form a triangle
+            <br />
+            <br />
+            <label>Line A: </label>
+            <br />
+            <label for="in-task11">X1: </label>
+            <input type="text" id="in-task11" class="small" value="1" />
+            <label for="in-task12">Y1: </label>
+            <input type="text" id="in-task12" class="small" value="1" />
+            <label for="in-task13">X2: </label>
+            <input type="text" id="in-task13" class="small" value="2" />
+            <label for="in-task14">Y2: </label>
+            <input type="text" id="in-task14" class="small" value="-4" />
+
+            <br />
+            <label>Line B: </label>
+            <br />
+            <label for="in-task15">X1: </label>
+            <input type="text" id="in-task15" class="small" value="-3" />
+            <label for="in-task16">Y1: </label>
+            <input type="text" id="in-task16" class="small" value="3" />
+            <label for="in-task17">X2: </label>
+            <input type="text" id="in-task17" class="small" value="4" />
+            <label for="in-task18">Y2: </label>
+            <input type="text" id="in-task18" class="small" value="4" />
+
+            <br />
+            <label>Line C: </label>
+            <br />
+            <label for="in-task19">X1: </label>
+            <input type="text" id="in-task19" class="small" value="5" />
+            <label for="in-task110">Y1: </label>
+            <input type="text" id="in-task110" class="small" value="5" />
+            <label for="in-task111">X2: </label>
+            <input type="text" id="in-task111" class="small" value="-6" />
+            <label for="in-task112">Y2: </label>
+            <input type="text" id="in-task112" class="small" value="6" />
+
+            <br />
+            <input type="submit" id="bt-task1" value="Calculate" />
+        </p>
+        <div id="res-task1" class="result float"></div>
+    </div>
+    <hr />
+
+    <div class="clearfix">
+        <p class="float">
+            2. Write a function that removes all elements with a given value<br />
+            Example:<br />
+            <br />
+            var arr = [1,2,1,4,1,3,4,1,111,3,2,1,"1"];<br />
+            arr.remove(1); //arr = [2,4,3,4,111,3,2,"1"];<br />
+            <br />
+            - Attach it to the array type<br />
+            - Read about prototype and how to attach methods
+            <br />
+            <br />
+            <label for="in-task21">Enter a sequence of elements: </label>
+            <input type="text" id="in-task21" class="big" value='1,2,1,4,1,3,4,1,111,3,2,1,"1"' />
+            <br />
+            <label for="in-task22">Enter element to remove: </label>
+            <input type="text" id="in-task22" class="small" value="1" />
+
+            <input type="submit" id="bt-task2" value="Remove element" />
+        </p>
+        <div id="res-task2" class="result float"></div>
+    </div>
+    <hr />
+
+    <div class="clearfix">
+        <div class="float">
+            <br />
+            3. Write a function that makes a deep copy of an object<br />
+            - The function should work for both primitive and reference types
+            <br />
+            <br />
+
+            <input type="submit" id="bt-task31" value="Deep copy objects" />
+            <input type="submit" id="bt-task32" value="Change copied objects" disabled />
+            <br />
+            <br />
+            <p id="info-task3" class="info">
+                P.P. The array appears with "..., , ,..." because originali it looks like<br />
+                "..., null, undefined,..." and these values are not displayed properly!
+            </p>
+        </div>
+        <div id="res-task3" class="result float"></div>
+    </div>
+    <hr />
+
+    <div class="clearfix">
+        <p class="float">
+            4. Write a function that checks if a given object contains a given property<br />
+            Example:<br />
+            <br />
+            var obj  = …;<br />
+            var hasProp = hasProperty(obj,"length");
+            <br />
+            <br />
+            <label for="in-task22">Enter a property to search in "document": </label>
+            <input type="text" id="in-task4" value="body" />
+            <br />
+
+            <input type="submit" id="bt-task4" value="Search" />
+        </p>
+        <div id="res-task4" class="result float"></div>
+    </div>
+    <hr />
+
+    <div class="clearfix">
+        <p class="float">
+            5. Write a function that finds the youngest person in a given array of persons and prints his/hers full name<br />
+            - Each person have properties firstname, lastname and age, as shown:<br />
+            <br />
+            var persons = [<br />
+            {firstname : "Gosho", lastname: "Petrov", age: 32},<br />
+            &nbsp;&nbsp;firstname : "Bay", lastname: "Ivan", age: 81},…];
+            <br />
+            <br />
+
+            <input type="submit" id="bt-task5" class="big" value="Find the youngest person" />
+        </p>
+        <div id="res-task5" class="result float"></div>
+    </div>
+    <hr />
+
+    <div class="clearfix">
+        <p class="float">
+            6. Write a function that groups an array of persons by age, first or last name. The function must return an associative
+            array, with keys - the groups, and values - arrays with persons in this groups.<br />
+            <br />
+            - Use function overloading (i.e. just one function)<br />
+            <br />
+            var persons = {…};<br />
+            var groupedByFname = group(persons, "firstname");<br />
+            var groupedByAge = group(persons, "age");
+            <br />
+            <br />
+            <input type="radio" id="r1" name="group" value="firstname" checked />
+            <label for="r1">First name </label>
+            <input type="radio" id="r2" name="group" value="lastname" />
+            <label for="r2">Last name </label>
+            <input type="radio" id="r3" name="group" value="age" />
+            <label for="r3">Age </label>
+            <br />
+
+            <input type="submit" id="bt-task6" class="big" value="Group by" />
+        </p>
+        <div id="res-task6" class="result float"></div>
+    </div>
+    <hr />
+
+    <script src="scripts.js"></script>
+</body>
+</html>

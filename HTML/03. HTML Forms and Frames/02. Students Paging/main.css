@@ -1,0 +1,44 @@
+html, table, body, tr, td, th, tbody, thead, tfoot, input, form, div{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    background-color: #023f55;
+}
+
+table, tr, td, th {
+    border-style: solid;
+    border-width: 1px;
+    border-spacing: 0px;
+}
+
+table {
+    margin: 10px;
+}
+
+th, td {
+    padding: 5px;
+}
+
+tbody {
+    background-color: #fffdc9;
+}
+
+thead, tfoot, .pages {
+    background-color: #e2e0bb;
+}
+
+.pages {
+    border-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pages:hover {
+    text-decoration: underline;
+}
+
+.tableLineBold {
+    font-weight: bold;
+}

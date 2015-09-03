@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>02. Dynamic Dropdown</title>
+	<script src='../libs/handlebars.min.js'></script>
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+	<select id="dropdown"></select>
+    <script id="options-template" type="text/x-handlebars-template">
+        {{#optionsGroup}}
+        <option value="{{value}}">{{text}}</option>
+        {{/optionsGroup}}
+    </script>
+    <script src="../Scripts/handlebars.min.js"></script>
+</body>
+</html>

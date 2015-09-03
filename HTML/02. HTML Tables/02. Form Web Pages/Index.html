@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="main.css"/>
+        <title>Form Web Pages</title>
+    </head>
+
+    <body id="wrapper">
+        <form id="member" method="post" action="">
+            <div class="inputHolder">
+                <label for="member_name">Member name :</label>
+                <div class="input">
+                    <input type="text" id="member_name" name="member_name" placeholder="Your name" required />
+                    <span class="star">*</span>
+                </div>
+            </div>
+            <br/>
+
+            <div class="inputHolder">
+                <label for="member_email">Email :</label>
+                <div class="input">
+                    <input type="email" id="member_email" name="member_email" placeholder="aaaaa@bbb.com" required />
+                    <span class="star">*</span>
+                </div>
+            </div>
+            <br/>
+
+            <div class="inputHolder">
+                <label for="member_school">School :</label>
+                <div class="input">
+                    <input type="text" id="member_school" name="member_school" placeholder="School name" required />
+                    <span class="star">*</span>
+                </div>
+            </div>
+            <br/>
+            
+            <div class="submitHolder">
+                <hr/>
+                <input type="submit" id="submit_member" name="member_submit" value="" alt="Submit" />
+            </div>
+        </form>
+    </body>
+</html>

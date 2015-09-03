@@ -1,0 +1,23 @@
+#ol_main {
+    list-style-type: upper-roman;
+}
+
+#ol_nested {
+    list-style-type: lower-alpha;
+}
+
+#ol_nested_2 {
+    list-style-type: decimal;
+}
+
+#ul_nested {
+    list-style-type: circle;
+}
+
+#ul_nested_2 {
+    list-style-type: disc;
+}
+
+#ul_nested_nested {
+    list-style-type: square;
+}
